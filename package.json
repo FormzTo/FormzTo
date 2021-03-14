@@ -1,0 +1,20 @@
+{
+  "name": "FormzTo.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormzTo/FormzTo.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FormzTo/FormzTo.js/issues"
+  },
+  "homepage": "https://github.com/FormzTo/FormzTo.js#readme"
+}

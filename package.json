@@ -1,20 +1,33 @@
 {
-  "name": "FormzTo.js",
-  "version": "1.0.0",
+  "name": "formzto",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FormzTo/FormzTo.js.git"
+    "url": "https://github.com/FormzTo/FormzTo.js.git"
   },
-  "keywords": [],
+  "keywords": [
+    "form",
+    "slack",
+    "mattermost",
+    "serverless"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/FormzTo/FormzTo.js/issues"
   },
-  "homepage": "https://github.com/FormzTo/FormzTo.js#readme"
+  "homepage": "https://github.com/FormzTo/FormzTo.js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.25.1",
+    "webpack-cli": "^4.5.0"
+  }
 }
